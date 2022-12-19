@@ -1,0 +1,187 @@
+@media screen and (max-width: 1200px){
+    .header__socials{
+        margin-left: 0px;
+    }
+
+    .tractor__header-wrapper{
+        justify-content: center;
+    }
+
+    .container{
+        padding: 0 20px;
+    }
+
+    .customers__list{
+        justify-content: center;
+    }
+
+    .tractor__main-conditions::before{
+        display: none;
+    }
+
+    .vehicles__wrapper{
+        justify-content: center;
+    }
+
+    .tractor__main-srvice-wrapper{
+        justify-content: center;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .main-service-arrow{
+        left: -60px;
+    }
+
+    .main-service-arrow-2{
+        right: -55px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .container{
+        padding: 10px 20px;
+    }
+
+    .works{
+        flex-direction: column;
+        width: auto;
+    }
+
+    .works-info-header{
+        padding-top: 12px;
+    }
+
+    .works-info-subheader{
+        padding-bottom: 10px;
+    }
+
+    .header__socials{
+        max-width: 253px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tractor__header-title{
+        
+    }
+
+    .tractor__header-phone-number{
+        font-size: 12px;
+        max-width: 159px;
+    }
+
+    .number{
+        font-size: 14px;
+    }
+
+    .header__logo-wrapper{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .socials__phone-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .tractor__header-wrapper{
+        justify-content: space-around;
+    }
+
+}
+@media screen and (max-width: 709px){
+    .header__socials{
+        max-width: 133px;
+        margin-left: 25px;
+        flex-direction: column;
+    }  
+
+    .phone__wrapper{
+        gap: 0;
+    }
+
+    .customers__list{
+        flex-direction: column;
+    }
+
+    .customers__item{
+        justify-content: flex-start;
+    }
+
+    .main-service-arrow{
+       display: none;
+    }
+
+    .main-service-arrow-2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 513px){
+    .tractor__header-wrapper{
+        flex-direction: column;
+    }
+
+    .header__logo-wrapper{
+        flex-direction: row;
+    }
+
+    .socials__phone-wrapper{
+        align-items: center;
+    }
+
+    .header__socials{
+        gap: 10px;
+    }
+
+    .customer-header{
+        text-align: center;
+    }
+
+    hr{
+        margin: 16px auto;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .footer__wrapper-start{
+        flex-direction: column;
+    }
+
+    .footer__phone-wrapper{
+        margin-left: -20px;
+    }
+
+    .footer__wrapper-end{
+        flex-direction: column;
+    }
+
+    .footer__wrapper-bottom{
+        flex-direction: column;
+        align-items: baseline;
+        margin-top: 20px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 381px){
+    tr{
+        font-size: 10px;
+    }
+
+    tr.row-1:first-of-type{
+        font-size: 10px;
+    }
+
+
+    td{
+        padding: 6px;
+    }
+
+    .tractor__footer-header-title{
+        display: none;
+    }
+}
