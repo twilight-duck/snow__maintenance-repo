@@ -79,6 +79,10 @@ a {
     font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
+.tractor__footer-phone-number{
+    max-width: 159px;
+}
+
 .header__socials{
     max-width: 342px;
     width: 100%;
